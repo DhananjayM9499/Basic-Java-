@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Exbank.java&apos; to &apos;Practice/src/practice.in&apos;&#x0D;&#x0A;- Original project: &apos;Module_1 Exam&apos;&#x0D;&#x0A;- Destination element: &apos;Practice/src/practice.in&apos;&#x0D;&#x0A;- Original element: &apos;cdac.in.Exbank.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="=Practice/src&lt;practice.in" element1="/src&lt;cdac.in{Exbank.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1664089199516" units="1" version="1.0"/>
+</session>

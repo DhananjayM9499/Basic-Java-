@@ -1,0 +1,10 @@
+package cdac.in;
+
+public class MdArrayForEach {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

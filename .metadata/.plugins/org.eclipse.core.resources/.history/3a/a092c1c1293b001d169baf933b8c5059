@@ -1,0 +1,23 @@
+package cdac.in;
+import java.util.*;
+public class AverageArray {
+
+	public static void main(String[] args) {
+		Scanner scan=new Scanner(System.in);
+		int sum = 0, average;
+		int[] array=new int[10];
+		for (int i = 0; i < args.length; i++) {
+			
+			array[i]=scan.nextInt();
+			
+		}
+		for (int i = 0; i < array.length; i++) {
+			sum=sum+array[i];
+			
+		}
+		average=sum/array.length;
+		System.out.println(average);
+
+	}
+
+}

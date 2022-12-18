@@ -1,0 +1,21 @@
+package cdac.in;
+import java.util.*;
+public class Calculatorr {
+
+	public static void main(String[] args) {
+		Scanner scan=new Scanner(System.in);
+		float a,b,res=0;
+		char choice;
+		//do {
+			System.out.println("Calculator Menu item->>>"+"\n1.Addition"+
+		                        "\n2.Substraction\n3.Multiplication"
+					+"\n4.Division\n5.Average\n6.Power");
+		//} while (); {
+			
+		}
+		
+
+
+	}
+
+//}

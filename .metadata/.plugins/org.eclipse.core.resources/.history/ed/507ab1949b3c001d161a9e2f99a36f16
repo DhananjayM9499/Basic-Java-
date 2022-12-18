@@ -1,0 +1,67 @@
+package cdac.in;
+
+import java.util.*;
+
+class BankDetails {
+	static Scanner scan = new Scanner(System.in);
+	String Name;
+		int AcNumber;
+		int BankBalance;
+
+	public void Customer() {
+		
+		System.out.println("Enter your name");
+		Name = scan.next();
+		System.out.println("Enter your account number");
+		AcNumber = scan.nextInt();
+		System.out.println("Enter your bank balance");
+		BankBalance = scan.nextInt();
+
+	}
+	public void DisplayDetails() {
+	System.out.println("A/c Holder Name : " +Name);
+	System.out.println("Account Number : "+AcNumber);
+	System.out.println("Your Bank balance is "+BankBalance+"/-");
+}
+	public void Search() {
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	public void Deposit() {
+        int Amount;
+        System.out.println("Enter amount you want to Deposit : ");
+        Amount = scan.nextInt();
+        BankBalance = BankBalance + Amount;
+	
+}
+	public void Withdrawl() {
+		int Amount;
+		System.out.println("Enter amount you want to withdrawl");
+		Amount = scan.nextInt();
+		if (BankBalance >= Amount) {
+            BankBalance = BankBalance - Amount;
+        } else {
+            System.out.println("Less Balance..Transaction Failed..");
+        }
+	}
+		
+	}
+
+
+
+public class Bank {
+
+	public static void main(String[] args) {
+		BankDetails c1 = new BankDetails();
+		c1.Customer();
+		c1.DisplayDetails();
+
+	}
+
+}

@@ -1,0 +1,19 @@
+package practice.in;
+import java.util.*;
+public class MiddleNumber {
+
+	public static void main(String[] args) {
+		Scanner scan=new Scanner(System.in);
+		System.out.println("enter smaller number");
+		int a=scan.nextInt();
+		System.out.println("enter Bigger number");
+		int b=scan.nextInt();
+		
+		while(a!=b) {
+			a++;
+			b--;
+		}
+System.out.println(a);
+	}
+
+}

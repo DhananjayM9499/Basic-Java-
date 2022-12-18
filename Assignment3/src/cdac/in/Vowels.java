@@ -1,0 +1,62 @@
+package cdac.in;
+import java.util.*;
+public class Vowels {
+
+	public static void main(String[] args) {
+		Scanner scan=new Scanner(System.in);
+		char Alphabet;
+		System.out.println("Enter the alphabet");
+		 Alphabet=scan.next().charAt(0);
+		 
+		switch (Alphabet) {
+		case 'a':
+			System.out.println(Alphabet+" is a vowel");
+			
+			break;
+		case 'e':
+			System.out.println(Alphabet+" is a vowel");
+			
+			break;
+		case 'i':
+			System.out.println(Alphabet+" is a vowel");
+			
+			break;
+		case 'o':
+			System.out.println(Alphabet+" is a vowel");
+			
+			break;
+		case 'u':
+			System.out.println(Alphabet+" is a vowel");
+			
+			break;
+		case 'A':
+			System.out.println(Alphabet+" is a vowel");
+			
+			break;
+		case 'E':
+			System.out.println(Alphabet+" is a vowel");
+			
+			break;
+		case 'I':
+			System.out.println(Alphabet+"is a vowel");
+			
+			break;
+		case 'O':
+			System.out.println(Alphabet+"  is a vowel");
+			
+			break;
+		case 'U':
+			System.out.println(Alphabet+" is a vowel");
+			
+			break;
+		
+
+		default:
+			System.out.println(Alphabet+" is a consonent");
+			break;
+		}
+		
+		
+		
+	}
+}

@@ -1,0 +1,11 @@
+package cdac.in;
+
+public class CharArray {
+
+	public static void main(String[] args) {
+	char[] array= {'D','H','A','N','A','N','J','A','Y'};
+	System.out.println(array[5]);
+
+	}
+
+}

@@ -1,0 +1,16 @@
+package practice.in;
+
+public class MiddleNo {
+
+	public static void main(String[] args) {
+		int[] array= {100,101,102,103,104,105,106,107,108,109,110,111};
+		int i=0;
+		int rem=array.length/2;
+		while(i<array.length/2) {
+		
+		i++;
+		}
+		System.out.println(array[i-rem]);	
+	}
+
+}

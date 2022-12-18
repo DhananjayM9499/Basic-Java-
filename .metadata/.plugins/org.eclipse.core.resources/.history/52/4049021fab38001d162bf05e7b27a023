@@ -1,0 +1,16 @@
+package cdac.in;
+
+public class Box {
+	 Box() {
+		 System.out.println("constructor");
+		
+	}
+
+	public static void main(String[] args) {
+		new Box();
+		
+		
+
+	}
+
+}

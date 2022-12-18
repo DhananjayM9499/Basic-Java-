@@ -1,0 +1,19 @@
+package cdac.in;
+
+public class MdArrayForEach {
+
+	public static void main(String[] args) {
+		int [][]marks= {{1,2,3},{4,5,6},{7,8,9}};
+		for (int[] rows : marks) {
+			for (int column : rows) {
+				
+				System.out.print(column);
+				
+			}
+			System.out.println("");
+			
+		}
+
+	}
+
+}

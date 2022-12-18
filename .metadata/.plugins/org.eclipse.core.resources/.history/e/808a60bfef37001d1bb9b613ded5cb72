@@ -1,0 +1,24 @@
+package cdac.in;
+
+public class MaxMin {
+
+	public static void main(String[] args) {
+
+		int[] array = { 10, 5, 8, 6, 7, 6 };
+		int Max = array[0];
+		int Min = array[0];
+		for (int i = 1; i < array.length; i++) {
+
+			if (array[i] > Max) {
+				Max = array[i];
+			}
+			if(array[i]<Min) {
+				Min=array[i];
+			}
+
+		}
+		System.out.println(Max);
+		System.out.println(Min);
+	}
+
+}

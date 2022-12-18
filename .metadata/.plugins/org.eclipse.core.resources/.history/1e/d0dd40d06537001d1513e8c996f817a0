@@ -1,0 +1,34 @@
+package cdac.in;
+import  java.util.*;
+class Entry{
+	public void Calculations() {
+		float Amount,Principal,interest,time;
+		int years;
+		Scanner scan=new Scanner(System.in);
+		
+		System.out.println("Enter the principal amount");
+		Principal=scan.nextFloat();
+		
+		System.out.println("Enter interest ");
+		interest=scan.nextFloat();
+		
+		System.out.println("Enter compound times ");
+		time=scan.nextFloat();
+		
+		System.out.println("Enter the time period");
+		years=scan.nextInt();
+		
+		Amount=Principal*(1+interest/time)^years;
+	}
+	
+}
+
+
+public class Compoundinterest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

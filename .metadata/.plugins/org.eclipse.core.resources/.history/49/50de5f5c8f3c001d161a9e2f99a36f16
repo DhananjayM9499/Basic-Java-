@@ -1,0 +1,27 @@
+package cdac.in;
+import java.util.*;
+class BankDetails{
+	static Scanner scan = new Scanner(System.in);
+	public void Customer(){
+	String Name;
+	int AcNumber;
+	int BankBalance;
+	System.out.println("Enter your name");
+	Name=scan.next();
+	System.out.println("Enter your account number");
+	AcNumber=scan.nextInt();
+	System.out.println("Enter your bank balance");
+	
+	
+	
+	}
+}
+
+public class Bank {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

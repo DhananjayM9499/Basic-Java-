@@ -1,0 +1,19 @@
+package cdac.in;
+
+public class Epyramid {
+
+	public static void main(String[] args) {
+		for (int i = 5; i >= 0; i--) {
+			for (int j = i; j >= 0; j--) {
+				System.out.print(" ");
+				for (int j2 = 0; j2 < args.length; j2++) {
+					System.out.println("*");
+				}
+				
+			}
+			//System.out.println(" * ");
+		}
+
+	}
+
+}

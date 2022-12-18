@@ -1,0 +1,35 @@
+package cdac.in;
+import java.util.*;
+public class Calculatorr {
+
+	public static void main(String[] args) {
+		Scanner scan=new Scanner(System.in);
+		int i=1;
+		float a,b,res=0;
+		char choice;
+		do {
+			System.out.println("Calculator Menu item->>>"+"\n1.Addition"+
+		                        "\n2.Substraction\n3.Multiplication"
+					+"\n4.Division\n5.Average\n6.Power\n7.Quit");
+			System.out.print("Enter the choice you want(1,2,3,4,5,6,7): ");
+			choice=scan.next().charAt(0);
+			switch(choice) {
+			case'1':
+				System.out.println("Enter number"+i+":");
+				i++;
+			}
+			System.out.println("Do you want to continue (Y/N)");
+			choice=scan.next().charAt(0);
+		}
+		
+		while (choice=='Y'||choice=='y'); {
+			System.out.println("Bye have a good day");
+		}
+			
+		}
+		
+
+
+	}
+
+//}

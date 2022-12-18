@@ -1,0 +1,22 @@
+package cdac.in;
+
+class DegreeToFahrenheit{
+	
+	public static float Celcius(float Celciusvalues) {
+		float Result=0.0f;
+		Result= ((9 * Celciusvalues + (32 * 5 )) / 5);
+		
+		return Result;
+		
+	}
+}
+
+public class JavaMethod {
+
+
+	public static void main(String[] args) {
+		float finalresult=DegreeToFahrenheit.Celcius(37.00f);
+		System.out.println(finalresult);
+	}
+
+}

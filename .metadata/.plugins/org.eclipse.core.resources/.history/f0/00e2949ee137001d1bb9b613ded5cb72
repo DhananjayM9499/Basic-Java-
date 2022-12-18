@@ -1,0 +1,20 @@
+package cdac.in;
+
+class Student {
+	int stdId;
+	String stdName;
+	static String collegeName = "Cdac Delhi";
+
+	Student(int id, String name) {
+		
+
+	}
+
+}
+
+public class StaticVariable {
+	public static void main(String[] args) {
+
+	}
+
+}
